@@ -1,19 +1,21 @@
-<!--|CSS Inside|-->
-<link rel="stylesheet" href="index.css">
-<!--|CSS Inside|-->
-
-<!--|Header|-->
+<link href="style.css" rel="stylesheet">
 <header id="hd">
-  <div id="lg">
-    <img class="lg" src="">
-  </div>
-  <ul id="ls">
-    <li><a class="nv" href="index.html">HOME</a></li>
-    <li><a class="nv" href="sobrenos.html">SOBRE NÓS</a></li>
-    <li><a class="nv" href="dizimo.html">DIZIMO</a></li>
-    <li><a class="nv" href="contato.html">CONTATO</a></li>
-    <li><a class="nv" href="index.html"><img class="im" src="">PT/BR</a></li>
-    <li><a class="nv" href=""><img class="im" src="">EN</a></li>
-  </ul>
+    <div id="lg"><a href="/"><img src="images/logo.png" class="lg"></a>
+    </div>
+    <ul id="ls">
+        <li><a href="/" class="nv"><img src="images/home.svg" class="im">HOME</a>
+        <li><a href="#empresa" class="nv"><img src="images/unity.svg" class="im">A EMPRESA</a>
+        <li><a href="#servico" class="nv"><img src="images/sobre.svg" class="im">SERVIÇOS</a>
+        <li><a href="#especialidade" class="nv"><img src="images/list.svg" class="im">ESPECIALIDADES</a>
+        <li><a href="#contato" class="nv"><img src="images/contato.svg" class="im">CONTATO</a>
+    </ul>
+    <div id="divhd" onclick="toggleMenu()"><img src="images/menumobile.svg" id="mnm"></div>
+    <ul id="lsm">
+        <div class="divclose"><img src="images/close.svg" id="mnm" onclick="toggleoffMenu()"></div>
+        <li><a href="/" class="nvls" onclick="toggleoffMenu()">HOME<img src="images/home.svg" class="imls"></a>
+        <li><a href="#empresa" class="nvls" onclick="toggleoffMenu()">A EMPRESA<img src="images/unity.svg" class="imls"></a>
+        <li><a href="#servico" class="nvls" onclick="toggleoffMenu()">SERVIÇOS<img src="images/sobre.svg" class="imls"></a>
+        <li><a href="#especialidade" class="nvls" onclick="toggleoffMenu()">ESPECIALIDES<img src="images/list.svg" class="imls"></a>
+        <li><a href="#contato" class="nvls" onclick="toggleoffMenu()">CONTATO<img src="images/contato.svg" class="imls"></a>
+    </ul>
 </header>
-<!--|Header|-->
