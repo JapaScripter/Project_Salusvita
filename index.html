@@ -14,7 +14,7 @@
     <!--|Title Tab|-->
 
     <!--|CSS|-->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <!--|CSS|-->
 
     <!--|Script Header and Footer Import|-->
@@ -132,10 +132,11 @@
         </div>
     </section>
     <footer></footer>
-
-    <!--|Script|-->
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js" rel="text/javascript"></script>
+
+    <!--|Script|-->
     <script>
     $(document).ready(function(){
       var a = 0, i = $(".slidecarousel"), e = i.length;
@@ -147,19 +148,6 @@
         t(a = (a + 1) % e);
       }, 5000);
     });
-    </script>
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const header = document.getElementById('hd');
-
-        window.addEventListener('scroll', () => {
-          if (window.scrollY > 50) { // Ajuste o valor conforme necessário
-            header.classList.add('scrolled');
-          } else {
-            header.classList.remove('scrolled');
-          }
-        });
-      });
     </script>
     <!--|Script|-->
   </body>
