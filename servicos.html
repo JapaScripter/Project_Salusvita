@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Salusvita">
+    <meta name="author" content="Unilatem">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Salusvita</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS|-->
+    <link rel="stylesheet" href="style.css">
+    <!--|CSS|-->
+
+    <!--|Script Header and Footer Import|-->
+    <script>fetch("header.html").then((e=>e.text())).then((e=>{document.querySelector("header").innerHTML=e})),fetch("footer.html").then((e=>e.text())).then((e=>{document.querySelector("footer").innerHTML=e}));</script>
+    <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>document.addEventListener("DOMContentLoaded",(function(){AOS.init()}));</script>
+    <!--|Animation|-->
+  </head>
+  <body>
+    <header></header>
+    <section id="servicos" class="scsc">
+        <h1 class="ttsc">Serviços</h1>
+        <div class="dvsc">
+            <img class="imsc" src="images/laudo.jpg">
+            <div class="dvsc2">
+            <h2 class="ttsc1">Cumprimento Exigências Legais</h2>
+            <p class="txsc">
+            Laudos Ocupacionais PGR; 
+            <br>LTCAT;
+            <br>PCMSO;
+            <br>Laudos de Insalubridade; 
+            <br>Periculosidade; Ergonomia;
+            <br>Lançamento eSocial;
+            <br>Licenciamento Ambiental. 
+            </p>
+            </div>
+        </div>
+        <div class="dvsc1">
+            <img class="imsc" src="images/treinamento.png">
+            <div class="dvsc2">
+            <h2 class="ttsc1">Capacitações e Treinamentos</h2>
+            <p class="txsc">
+            OS (NR1);
+            <br>CIPA (NR5);
+            <br>EPIs (NR6);
+            <br>Segurança Eletricidade (NR10);
+            <br>Vasos Pressão (NR13);
+            <br>Espaço Confinado (NR33);
+            <br>Trabalho em Altura (NR35).                
+            </p>
+            </div>
+        </div>
+        <div class="dvsc">
+            <img class="imsc" src="images/bombeiros.jpg">
+            <div class="dvsc2">
+            <h2 class="ttsc1">Regularização Corpo de Bombeiros</h2>
+            <p class="txsc">
+            Projeto do Sistema de Incêndio;
+            <br>Emissão e Renovação AVCB/CLCB;
+            <br>Assessoria;
+            <br>Treinamento da Brigada;
+            <br>Emissão de Laudos.
+            </p>
+            </div>
+        </div>
+        <div class="dvsc1">
+            <img class="imsc" src="images/processos.jpg">
+            <div class="dvsc2">
+            <h2 class="ttsc1">Processos Trabalhistas</h2>
+            <p class="txsc">
+            Assessoria;
+            <br>Elaboração de Quesitos;
+            <br>Assistente Técnico na Perícia;
+            <br>Laudos e Contestações.               
+            </p>
+            </div>
+        </div>
+        <div class="dvsc">
+            <img class="imsc" src="images/eletricidade.png">
+            <div class="dvsc2">
+            <h2 class="ttsc1">Segurança com Eletricidade</h2>
+            <p class="txsc">
+            Laudo Elétrico;
+            <br>Laudo SPDA;
+            <br>Capacitação NR10.                
+            </p>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script rel="text/javascript" src="script.js" defer></script>
+  </body>
+</html>
