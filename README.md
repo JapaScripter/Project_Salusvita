@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/logo.png" alt="Logo da Salusvita" width="200"/>
+  <img src="images/logo.png" alt="Logo da Salusvita" width="200"/>
 </p>
 
 <h1 align="center">Site Institucional - Salusvita Segurança do Trabalho</h1>
